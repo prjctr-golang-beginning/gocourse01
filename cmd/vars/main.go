@@ -47,6 +47,13 @@ func main() {
 	isCool := true              // bool
 	volume := 1.1               // float
 
+	// rune
+	R := 'Р'
+	fmt.Printf("One symbol: %c, one number: %d\n", R, R)
+
+	smile := '😊'
+	fmt.Printf("Emoji %c\n", smile)
+
 	fmt.Println(`What happens with it??\n`, myGender, myName, myAge, isCool, volume)
 
 	// functions

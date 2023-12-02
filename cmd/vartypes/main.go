@@ -1,7 +1,5 @@
 package main
 
-// Висвітлюємо особливості простих типів
-
 import "fmt"
 
 type (
@@ -52,6 +50,9 @@ func main() {
 		hasDinnerHappened bool
 	)
 
+	fmt.Printf("Zeros: %d %t\n", hoursPast, hasDinnerHappened)
+
+	// *** small simple program
 	for i := 0; i < workHours; i++ {
 		if hoursPast == dinnerHour {
 			hasDinnerHappened = true
@@ -92,14 +93,12 @@ func main() {
 	fmt.Printf("One symbol: %c, one number: %d\n", R1, R1)
 	var R2 int32 = 1056
 	fmt.Printf("%t\n", R1 == R2)
-	//
+
 	smile := '😊'
 	fmt.Printf("Emoji %c\n", smile)
 
 	//// exercise
-	//// 1. Type, which outputs square area
-	//// 2. Type, which prints itself
-	//// 3. Func, accepted only custom type
+	// ???
 }
 
 func printProfession(profession professionName) {

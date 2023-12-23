@@ -96,9 +96,6 @@ func main() {
 
 	smile := '😊'
 	fmt.Printf("Emoji %c\n", smile)
-
-	//// exercise
-	// ???
 }
 
 func printProfession(profession professionName) {
